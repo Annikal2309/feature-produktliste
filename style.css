@@ -1,0 +1,26 @@
+/*************** Reset *********************/
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- PRODUCT ---------- */
+#product_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+#product_container img {
+  width: 33vw;
+}
+/* ---------- PRODUCT LIST ---------- */
+#product_list_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+hr {
+  width: 30%;
+}
