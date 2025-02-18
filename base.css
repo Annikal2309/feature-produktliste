@@ -73,3 +73,28 @@ a {
 body {
   background-color: var(--bakgrunn);
 }
+@media only screen and (min-width: 900px) {
+  body {
+    max-width: 95vw;
+  }
+
+  .hero {
+    font-size: 3.5vw;
+  }
+
+  .hero_2 {
+    font-size: 3.5vw;
+    letter-spacing: 4px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.background-texture {
+  background-image: url(../img/background-texture.svg);
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
